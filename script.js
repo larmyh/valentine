@@ -10,7 +10,7 @@ noButton.addEventListener('click', () => {
     yesButton.style.fontSize = `${fontSize}rem`;
     
     // Change the "No" text to be more persuasive
-    const phrases = ["Are you sure?", "Really?", "Think again!", "Pwease?", "Don't do this!", "I nom u then u know:("];
+    const phrases = ["Are you sure?", "Really?", "Think again!", "Pwease?", "I nom u then u know:("];
     noButton.innerText = phrases[Math.floor(Math.random() * phrases.length)];
 });
 
