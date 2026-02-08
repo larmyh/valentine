@@ -15,6 +15,6 @@ noButton.addEventListener('click', () => {
 });
 
 yesButton.addEventListener('click', () => {
-    question.innerText = "Yay! See you on the 14th! hehehehehehe🥰";
+    question.innerText = "Yay! See you on the 14th! hehehehehehe i love you🥰";
     document.querySelector('.buttons').style.display = 'none';
 });
